@@ -40,7 +40,6 @@ def main():
                    'Potato White', 'Quince', 'Rambutan', 'Raspberry', 'Redcurrant', 'Salak', 'Strawberry', 'Strawberry Wedge', 
                    'Tamarillo', 'Tangelo', 'Tomato 1', 'Tomato 2', 'Tomato 3', 'Tomato 4', 'Tomato Cherry Red', 'Tomato Heart', 
                    'Tomato Maroon', 'Tomato Yellow', 'Tomato not Ripened', 'Walnut', 'Watermelon']
-  st.write("# Fruit Classification System")
   file=st.file_uploader("Choose a photo of a fruit from computer",type=["jpg","png"])
 
   if file is None:
