@@ -5,7 +5,7 @@ from PIL import Image,ImageOps
 import numpy as np
 
 def main():
-  st.title("Fruit Classifiation App")
+  st.title("Fruit Classification App")
   @st.cache_resource
   def load_model():
     model=tf.keras.models.load_model('fruit_classifier.hdf5')
